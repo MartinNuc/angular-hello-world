@@ -18,6 +18,7 @@ export class HelloWorldComponent implements OnInit {
   }
 
   recordTimestamp() {
-    this.serviceInstance.arrayOfTimestamps.push(new Date());
+    // this.serviceInstance.arrayOfTimestamps.push(new Date());
+    this.serviceInstance.addNewTimestamp();
   }
 }

@@ -7,4 +7,8 @@ export class TimestampService {
   arrayOfTimestamps: Date[] = [];
 
   constructor() { }
+
+  addNewTimestamp() {
+    this.arrayOfTimestamps.push(new Date());
+  }
 }

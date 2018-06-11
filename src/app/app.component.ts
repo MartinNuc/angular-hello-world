@@ -15,7 +15,6 @@ export class AppComponent {
   };
 
   toggleColor() {
-    debugger
     this.classObject.red = !this.classObject.red;
   }
 
