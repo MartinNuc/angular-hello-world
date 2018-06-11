@@ -1,4 +1,17 @@
 
+.red {
+  color: lightgreen;
+}
+
+.large {
+  font-size: 40px;
+}
+
+
+
+
+
+
 .menu {
   position: absolute;
   background-color: white;

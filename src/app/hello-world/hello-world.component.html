@@ -1,4 +1,4 @@
-<h1 class="name">I am Martin</h1>
+<h1 class="name">I am {{name}}</h1>
 
 
 <button type="button" (click)="recordTimestamp()">Click me!</button>
@@ -6,4 +6,4 @@
 <app-remember-button (something)="recordTimestamp()"></app-remember-button>
 
 
-<app-list [list]="arrayOfTimestamps"></app-list>
+<app-list [list]="serviceInstance.arrayOfTimestamps"></app-list>
